@@ -1,0 +1,249 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*---    Page Header.       ---*/
+header{
+
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+
+}
+
+.inner-header{
+  
+width:1100px;
+  height:100%;
+  display: block;
+  margin: auto ;
+  background-color: black;
+  
+  }
+
+
+.logo-container{
+  
+  height:100%;
+  display: table;
+  align: center ;
+  
+  }
+
+.logo-container h1{
+
+  color:white;
+  height: 100%;
+  display: table-cell,
+    verticle-align: middle;
+  font-family:impact;
+  font-size: 35px;
+  }
+/*---  navigation style   ---*/
+
+nav {
+
+
+  height:100%;
+width:190px;
+
+/*---
+
+(dont know if i want this yet)
+
+border: 3px solid #000;
+
+
+----*/ 
+  
+}
+ a{
+
+  font-family:impact;
+  height:100%;
+display:table-cell;
+  align: center;
+  padding: 0 10px;
+  
+}
+
+a:link    { color: red;  }
+a:visited { color: red;   }
+a:hover   { color: gold; }
+a:active  { color: white;  }
+
+
+
+
+/*---            Main        ---*/
+
+
+main{
+ margin-top: 10%;
+position: absolute;
+length: 100vh;
+width: 100vh;
+}
+
+article{
+position: relative;
+
+}
+
+section{
+position: relative;
+
+}
+ h2{
+position:relative;
+margin-left: 15%;
+
+
+font-family: impact;
+font-size: 50px;
+color: black;
+ }
+
+ h3{
+position:relative;
+margin-left: 15%;
+margin-top: 30%;
+
+
+font-family: impact;
+font-size: 50px;
+color: black;
+ }
+
+#intro-para{
+position: relative;
+margin-top: -1%;
+margin-left: 15%;
+border: 3px solid;
+width: 400px;
+height:100px;
+background: red;
+
+
+
+padding: 20px;
+}
+
+#about-me-para{
+position: relative;
+margin-top: 2%;
+margin-left: 15%;
+border: 3px solid;
+width: 400px;
+height:100px;
+background: red;
+
+
+
+padding: 20px;
+}
+
+
+p{
+margin-top: 0%;
+font-family: Ariel;
+font-size: 20px;
+color:white;
+}
+
+#intro-ul{
+position: relative;
+margin-top: 10%;
+margin-left: 5%;
+border: 3px solid black;
+width: 200px;
+height:100px;
+background: red;
+
+
+
+padding: 30px;
+}
+
+ul{
+font-family: Ariel;
+font-size: 20px;
+color:white;
+}
+
+ol{
+font-family: Ariel;
+font-size: 20px;
+color:white;
+}
+
+
+/*---            images       ---*/
+
+.half-body{
+
+width:250px;
+margin-left: 43%;
+margin-top: -30%
+
+}
+
+.full-body{
+width:400px;
+margin-left:110%;
+margin-top: -170%;
+
+}
+
+
+hr{
+ height: 4px;
+  background-color: red;
+  border: 2px solid black;
+      /* size style color */
+  margin-top: 100%;
+  margin-bottom: -94%;
+
+}
+
+
+
+/*---            footer       ---*/
+footer{
+margin-top: 100%;
+position: absolute;
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+
+}
+
+
+
+
+.logo-container2{
+  
+  height:50%;
+  display: table;
+  align: center ;
+margin-top: -15%;
+margin-left:45%;
+  
+  }
+
+.logo-container2 h4{
+
+  color:black;
+  height: 50%;
+  display: table-cell,
+    verticle-align: middle;
+  font-family:impact;
+  font-size: 45px;
+margin-bottom: 4%;
+
+  }
